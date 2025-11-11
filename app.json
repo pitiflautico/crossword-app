@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Crossword Master",
+    "slug": "crossword-master",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00A3E0"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crosswordmaster.app",
+      "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00A3E0"
+      },
+      "package": "com.crosswordmaster.app",
+      "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-google-mobile-ads",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}
